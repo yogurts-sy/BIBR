@@ -13,7 +13,7 @@ For more details, please refer to our [paper](https://ieeexplore.ieee.org/docume
 If you want to regenerate the block dataset, please download our [pretrained weights](https://drive.google.com/drive/folders/1pmHfvk_doWFFpoBk4SB4cHHIRDkddHfX?usp=sharing) <for Contour Match (CM)> and place them in the path of the corresponding dataset, such as `exp/whu/pretrained`.
 
 Replace the path in the code and run the [script](https://github.com/yogurts-sy/BIBR/blob/main/prepare_dataset_whu.py).
-```python
+```
 python prepare_dataset_whu.py
 ```
 
@@ -21,8 +21,8 @@ python prepare_dataset_whu.py
 
 
 ## Train Boundary Delineation Network (BDN)
-Prepare the corresponding proportion of semi-supervised boundary block training and testing datasets, and use [UniMatch](https://github.com/LiheYoung/UniMatch). to train the Boundary Delineation Network (BDN).
-```python
+Prepare the corresponding proportion of semi-supervised boundary block training and testing datasets, and use [UniMatch](https://github.com/LiheYoung/UniMatch) to train the Boundary Delineation Network (BDN).
+```
 python unimatch_deeplabv3plus_whu.py 2>&1 | tee train_whu40_0.02_16.log
 ```
 

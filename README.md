@@ -20,7 +20,7 @@ Replace the path in the code and run the script below.
 python prepare_dataset_whu.py
 ```
 
-**Alternatively, we have already segmented the boundary block datasets for WHU-CD, LEVIR-CD, and DSIN-CD and can download them [here](https://github.com/yogurts-sy/BIBR/blob/main/prepare_dataset_whu.py).**
+**Alternatively, we have already segmented the boundary block datasets for WHU-CD, LEVIR-CD, and DSIN-CD and can download them [here](https://pan.baidu.com/s/1VXFkd15YvW7by02vkW3I6w?pwd=w7nb).**
 
 
 ## Train Boundary Delineation Network (BDN)

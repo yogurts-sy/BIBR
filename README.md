@@ -10,9 +10,12 @@ Overview of the proposed BIBR module. Given the bi-temporal images and the coars
 For more details, please refer to our [paper](https://ieeexplore.ieee.org/document/10965597).
 
 ## Prepare Boundary Block dataset [optional]
-If you want to regenerate the block dataset, please download our [pretrained weights](https://drive.google.com/drive/folders/1pmHfvk_doWFFpoBk4SB4cHHIRDkddHfX?usp=sharing) <for Contour Match (CM)> and place them in the path of the corresponding dataset, such as `exp/whu/pretrained`.
+If you want to regenerate the block dataset, please download our [pretrained weights](https://drive.google.com/drive/folders/1pmHfvk_doWFFpoBk4SB4cHHIRDkddHfX?usp=sharing) <for Contour Match (CM)> and place them in the path of the corresponding dataset.
 
-Replace the path in the code and run the [script](https://github.com/yogurts-sy/BIBR/blob/main/prepare_dataset_whu.py).
+For example, preparing boundary block dataset for WHU-CD 40%:
+* `Google Drive/BIBR/exp/whu/pretrained/best.pth` -> `BIBR/exp/whu/pretrained/best.pth`
+
+Replace the path in the code and run the script below.
 ```
 python prepare_dataset_whu.py
 ```
